@@ -5,26 +5,26 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "2e6494826d5b4b8be07df1ad8f022286"
+        API_ID = 11406332
+        BOT_TOKEN = "6115100274:AAGZJldNswEkUGkVn2naH1V8LCYw60kjmBg"
+        BASE_URL_OF_BOT = "http://139.59.20.73"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
+        ALD_USR = [879440576,-1001877358585]
         OWNER_ID = 0
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
 
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 40
+        EDIT_SLEEP_SECS = 60
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1700000000
+        TG_UP_LIMIT = 2000000000
 
         # Should force evething uploaded into Document
         FORCE_DOCUMENTS = False
@@ -36,10 +36,10 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        #DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
-        #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
+        DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # MEGA CONFIG
         MEGA_ENABLE = False
@@ -78,7 +78,7 @@ except:
         BOT_CMD_POSTFIX = "" 
 
         # Time out for the status Delete.
-        STATUS_DEL_TOUT = 20
+        STATUS_DEL_TOUT = 30
 
         # Allow the user settings to be accessed in private
         USETTINGS_IN_PRIVATE = False
